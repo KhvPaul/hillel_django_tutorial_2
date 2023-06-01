@@ -1,5 +1,5 @@
-from django.http import HttpResponse, Http404, HttpResponseRedirect
-from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponseRedirect
+from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
 from django.utils import timezone
 from django.views import generic
@@ -28,6 +28,7 @@ class IndexView(generic.ListView):
 # def detail(request, question_id):
 #     question = get_object_or_404(Question, pk=question_id)
 #     return render(request, "polls/detail.html", {"question": question})
+
 
 class QuestionDetailView(generic.DetailView):
     model = Question
