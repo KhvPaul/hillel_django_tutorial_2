@@ -1,0 +1,89 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$pEZeQVJX7gMLG1YGMDLibR$FbXbDThSwZPQAGGN4zavTIMWTej4rJj4386T5lPvDKg=",
+    "last_login": "2023-05-25T18:34:22.200Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@noreply.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-05-25T18:33:41.843Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 1,
+  "fields": {
+    "question_text": "What's up?",
+    "pub_date": "2023-05-29T16:24:11Z"
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 2,
+  "fields": {
+    "question_text": "test",
+    "pub_date": "2023-05-29T18:32:18Z"
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 3,
+  "fields": {
+    "question_text": "Test Old q",
+    "pub_date": "2023-05-27T18:39:21Z"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 1,
+  "fields": {
+    "question": 1,
+    "choice_text": "Not much",
+    "votes": 1
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 2,
+  "fields": {
+    "question": 1,
+    "choice_text": "The sky",
+    "votes": 2
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 4,
+  "fields": {
+    "question": 2,
+    "choice_text": "awe",
+    "votes": 0
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 5,
+  "fields": {
+    "question": 2,
+    "choice_text": "qwe123",
+    "votes": 0
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 7,
+  "fields": {
+    "question": 2,
+    "choice_text": "QWERTYU",
+    "votes": 0
+  }
+}
+]

@@ -2,6 +2,7 @@
 
 <link rel="stylesheet" href="{% static 'polls/style.css' %}">
 
+<a href="{% url "polls:create-question" %}">Create Question</a>
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
